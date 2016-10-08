@@ -1,0 +1,7 @@
+
+---------- creat a index to make the load faster --------------
+
+create index on restaurant (name);
+
+----------- Find the restaurant name -----------------------
+select * from restaurant where name = 'Nienow, Kiehn and DuBuque';
